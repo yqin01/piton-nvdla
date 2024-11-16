@@ -1,0 +1,4 @@
+#ifndef NVDLA_CFGROM_HEADER
+#define NVDLA_CFGROM_HEADER
+#define CFGROM_HW_VERSION 0x0000
+#endif
