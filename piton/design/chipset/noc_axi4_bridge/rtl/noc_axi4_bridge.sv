@@ -22,6 +22,11 @@
 // ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 // SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+`include "mc_define.h"
+`include "define.tmp.h"
+`include "noc_axi4_bridge_define.vh"
+
 module axi_noc_bridge #(
     parameter AXI_DATA_WIDTH = 64, 
     parameter AXI_ADDR_WIDTH = 64
